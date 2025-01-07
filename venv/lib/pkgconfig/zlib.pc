@@ -1,0 +1,13 @@
+prefix=/workspaces/nlp-practice/venv
+exec_prefix=/workspaces/nlp-practice/venv
+libdir=/workspaces/nlp-practice/venv/lib
+sharedlibdir=/workspaces/nlp-practice/venv/lib
+includedir=/workspaces/nlp-practice/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

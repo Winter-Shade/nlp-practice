@@ -1,0 +1,11 @@
+prefix=/workspaces/nlp-practice/venv
+exec_prefix=/workspaces/nlp-practice/venv
+libdir=/workspaces/nlp-practice/venv/lib
+includedir=/workspaces/nlp-practice/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
